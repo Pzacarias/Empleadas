@@ -63,6 +63,7 @@ public class Empleada {
 
     public void setCategoria(Categoria categoria) {
         this.categoria = categoria;
+        this.categoria.agregarEmpleada(this);
     }
 
     public BigDecimal getSueldo() {

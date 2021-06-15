@@ -47,6 +47,8 @@ public class Categoria {
         this.sueldoBase = sueldoBase;
     }
 
-
+    public void agregarEmpleada (Empleada empleada){
+        this.empleadas.add(empleada);
+    }
 
 }
